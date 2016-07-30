@@ -25,4 +25,4 @@ Write-Debug "output variable ($outputVariable.ApplicationLabel) = $xml.manifest.
 Write-Debug "output variable ($outputVariable.VersionName) = $xml.manifest.versionName"
 Write-Debug "output variable ($outputVariable.VersionCode) = $xml.manifest.versionCode"
 
-Write-Information "Done"
+Write-Debug "Done"
