@@ -1,0 +1,36 @@
+{
+    "manifestVersion": 1,
+    "id": "zou-tasks",
+    "name": "Zou Tasks",
+    "version": "1.0.1",
+    "publisher": "zoujian",
+    "targets": [
+        {
+            "id": "Microsoft.VisualStudio.Services"
+        }
+    ],    
+    "description": "Tools for building & publish",
+    "categories": [
+        "Build and release"
+    ],
+    "icons": {
+        "default": "extension-icon.png"        
+    },
+    "files": [
+        {
+            "path": "extract-xamarin-android-manifest"
+        }
+    ],
+    "contributions": [
+        {
+            "id": "extract-xamarin-android-manifest",
+            "type": "ms.vss-distributed-task.task",
+            "targets": [
+                "ms.vss-distributed-task.tasks"
+            ],
+            "properties": {
+                "name": "extract-xamarin-android-manifest"
+            }
+        }
+    ]
+}
