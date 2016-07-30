@@ -2,7 +2,7 @@
     "manifestVersion": 1,
     "id": "zou-tasks",
     "name": "Zou Tasks",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "publisher": "zoujian",
     "targets": [
         {

@@ -16,7 +16,7 @@
   "version": {
     "Major": "1",
     "Minor": "0",
-    "Patch": "2"
+    "Patch": "3"
   },
   "minimumAgentVersion": "1.83.0",
   "instanceNameFormat": "ExtractXamarinAndroidManifest",
@@ -46,9 +46,9 @@
     {
       "name": "outputVariable",
       "type": "string",
-      "label": "Resource Group",
-      "required": false,
-      "defaultValue": "",
+      "label": "outputVariable",
+      "required": true,
+      "defaultValue": "android",
       "groupName": "output",
       "helpMarkDown": "Provide a name for the variable for the android info. eg. set the outputVariable 'android', after task running, will return 'android.PackageName','android.ApplicationLabel','android.VersionName','android.VersionCode'."
     }
