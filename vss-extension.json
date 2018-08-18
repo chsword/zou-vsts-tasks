@@ -1,9 +1,18 @@
 {
     "manifestVersion": 1,
-    "id": "zou-tasks",
-    "name": "Zou Tasks",
-    "version": "1.0.4",
+    "id": "zou-xamarin-android-tasks",
+    "name": "Xamarin.Androd extract manifest Tasks",
+    "version": "1.0.6",
+    "public": true,
     "publisher": "zoujian",
+    "content": {
+        "details": {
+            "path": "overview.md"
+        },
+        "license": {
+            "path": "license-terms.md"
+        }
+    },
     "targets": [
         {
             "id": "Microsoft.VisualStudio.Services"
@@ -18,18 +27,18 @@
     },
     "files": [
         {
-            "path": "extract-xamarin-android-manifest"
+            "path": "zou-extract-xamarin-android-manifest"
         }
     ],
     "contributions": [
         {
-            "id": "extract-xamarin-android-manifest",
+            "id": "zou-extract-xamarin-android-manifest",
             "type": "ms.vss-distributed-task.task",
             "targets": [
                 "ms.vss-distributed-task.tasks"
             ],
             "properties": {
-                "name": "extract-xamarin-android-manifest"
+                "name": "zou-extract-xamarin-android-manifest"
             }
         }
     ]
